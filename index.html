@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PC Builder Community</title>
+    <style>
+        body {
+            background: url("background1.jpg") center/cover no-repeat fixed;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Add background color with opacity */
+            border-radius: 10px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .button {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #2196f3; /* Blue color */
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        .button:hover {
+            background-color: #1976d2; /* Darker blue color on hover */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to PC Builder Community</h1>
+        <p>Are you passionate about building PCs? Do you need help or advice on choosing the right components for your next build? Look no further!</p>
+        <p>At PC Builder Community, we are dedicated to helping you with all your PC building needs. Whether you're a beginner or an experienced builder, our community of knowledgeable members is here to assist you every step of the way.</p>
+        <h2>Ask Questions and Get Expert Advice</h2>
+        <p>Got a question about hardware compatibility, performance optimization, or troubleshooting? Our forum is the perfect place to ask. Connect with fellow builders, share your experiences, and learn from experts in the field.</p>
+        <p>Our community prides itself on providing accurate and up-to-date information. Don't hesitate to post your queries or browse existing threads to find answers to common questions.</p>
+        <h2>Build Your Dream PC</h2>
+        <p>Whether you're building a gaming rig, a workstation, or a home theater system, we've got you covered. Explore our comprehensive guides, tutorials, and recommendations to help you choose the best components for your specific needs and budget.</p>
+        <p>From CPUs and GPUs to motherboards, memory, storage, and more, we'll walk you through the process of selecting the right parts to ensure a smooth and successful build.</p>
+        <h2>Join our Community Today</h2>
+        <p>Ready to dive into the world of PC building and connect with like-minded enthusiasts? Join PC Builder Community now and start your journey to building the perfect PC.</p>
+        <p>Best of all, our services are completely free. We believe in fostering a supportive and inclusive community where everyone can learn and share their knowledge without any barriers.</p>
+        <p>Get started today and let's build something amazing together!</p>
+
+        <div class="menu">
+            <a href="https://example.com">Website 1</a>
+            <a href="https://example.com">Website 2</a>
+            <a href="https://example.com">Website 3</a>
+        </div>
+
+        <a href="https://example.com" class="button">Go to the Chat</a>
+    </div>
+    <script>
+        function shuffleBackgroundImages() {
+            const backgrounds = ["background1.jpg", "background2.jpg", "background3.jpg"];
+            const randomIndex = Math.floor(Math.random() * backgrounds.length);
+            const selectedBackground = backgrounds[randomIndex];
+            document.body.style.backgroundImage = `url(${selectedBackground})`;
+        }
+
+        window.addEventListener("load", shuffleBackgroundImages);
+    </script>
+</body>
+</html>

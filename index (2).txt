@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Interface</title>
+    <style>
+        body {
+            background-image: url("background1.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="https://example.com">Website 1</a>
+            <a href="https://example.com">Website 2</a>
+            <a href="https://example.com">Website 3</a>
+        </div>
+        <div class="clearfix">
+            <div class="column">
+                <h2>Column 1</h2>
+                <p>This is the content of column 1.</p>
+            </div>
+            <div class="column">
+                <h2>Column 2</h2>
+                <p>This is the content of column 2.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
